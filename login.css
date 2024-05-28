@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body{
+    background-image: url(fundo2.png);
+    background-size: 130%;
+    background-repeat: repeat;
+}
+
+header {
+    background-color: #000000;
+    color: #fff;
+    padding: 20px 0;
+    height: 100px;
+}
+
+.container {
+    width: 400px;
+    position: absolute;
+    top: 40px;
+    right: 1px;
+    font-size: large;
+    
+  }
+
+nav ul li {
+    display: inline;
+    margin-right: 30px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: larger;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+footer{
+    background-color: #000000;
+    color: #fff;
+    padding: 20px 0;
+    font-size: large;
+
+}
+
+#logo{
+    height: 60px;
+    width: 60px;
+    margin-left: 20px;
+}
+
+#polar{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    position: absolute;
+    top: 26px;
+    left: 62px;
+    font-size: xx-large;
+}
+#mr{
+    margin-top: 5px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    position: absolute;
+    top: 3px;
+    left: 62px;
+    font-size: xx-large
+
+}
+
+a{
+    margin-right: 20px;
+}
