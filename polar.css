@@ -18,7 +18,7 @@ h1,h2{
 .bord{
     height: 506px;
     width: 706px;
-    border-style: inset;
+    border-style: ridge;
     border-color: rgb(0, 0, 0);
     border-radius: 5px;
     margin-left: 600px;
@@ -89,7 +89,7 @@ footer{
     width: 500px;
     padding: 5px;
     border-radius: 5px;
-    border-style: inset;
+    border-style: ridge;
     border-color: #000000;
 }
 
