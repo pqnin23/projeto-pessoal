@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body{
+    background-image: url(landscape2.jpg);
+    background-size: 150%;
+    background-repeat: no-repeat;
+}
+
+h2{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    font-size: x-large;
+}
+
+#urso{
+    height: 500px;
+    width: 500px;
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    
+}
+
+#text{
+    text-align: center;
+    margin-left: 600px;
+    margin-right: 600px;
+    padding: 15px;
+    background-color: black;
+    color: white;
+    font-size: large;
+    border-radius: 5px;
+    border-color: blueviolet;
+    border-style: ridge;
+}
+
+footer{
+    background-color: #000000;
+    color: #fff;
+    padding: 30px ;
+    font-size: large;
+    text-align: center;
+}
+
+header {
+    background-color: #000000;
+    color: #fff;
+    padding: 20px 0;
+    height: 100px;
+}
+
+#logo{
+    height: 60px;
+    width: 60px;
+    margin-left: 20px;
+}
+
+#mr{
+    margin-top: 5px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    position: absolute;
+    top: 13px;
+    left: 72px;
+    font-size: xx-large
+
+}
+
+#polar{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    position: absolute;
+    top: 36px;
+    left: 72px;
+    font-size: xx-large;
+}
+
+.bord{
+    height: 506px;
+    width: 506px;
+    border-style: ridge;
+    border-color: rgb(0, 0, 0);
+    border-radius: 5px;
+    margin-left: 700px;
+ }
+
+.container {
+    width: 400px;
+    position: absolute;
+    top: 40px;
+    right: 1px;
+    font-size: large;
+    
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 30px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: larger;
+    margin-right: 20px;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.contain{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    height: 340px;
+    margin: auto;
+    width: 1600px;
+}
+
+.images{
+    height: 300px;
+    width: 300px;
+}
+
+.item{
+    height: 340px;
+    width: 305px;
+    text-align: center;
+    font-size: larger;
+    border-style: ridge;
+    border-radius: 3px;
+    border-color: #000000;
+    background-color: #ffffff;
+}
+
+.item a{
+    color: #000000;
+}
